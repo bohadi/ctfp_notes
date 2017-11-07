@@ -1,0 +1,13 @@
+category: the essence of composition
+
+computers can help us solve nontrivial problems
+
+id :: a -> a
+id x = x
+
+type variable a
+any type has id arrow to self
+
+category theory, maximally abstract:
+objects and arrows between them
+
