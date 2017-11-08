@@ -15,3 +15,5 @@ any type has id arrow to self
 category theory, maximally abstract:
 objects and arrows between them
 
+however, objects exist only to mark the ends of arrows
+
