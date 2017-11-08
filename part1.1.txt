@@ -17,3 +17,13 @@ objects and arrows between them
 
 however, objects exist only to mark the ends of arrows
 
+monomorphism (cf. 1-1 injective fn)
+forall c . forall g, h :: c -> a .
+    f . g = g . h => g = h
+
+epimorphism (cf. onto surjective fn)
+forall c . forall g, h :: b -> c .
+    g . f = h . f => g = h
+
+however, an isomorphism (monic and epic) is NOT necessarily
+invertible, cf. a bijection
