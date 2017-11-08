@@ -1,5 +1,9 @@
 category: the essence of composition
 
+category theory is more epistemology than ontology
+the similar structure we see reflected everywhere says more
+about our minds than outward nature
+
 computers can help us solve nontrivial problems
 
 id :: a -> a
