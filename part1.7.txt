@@ -1,5 +1,8 @@
 functors
 
+discrete category - no structure
+the only morphisms are identities (for each object)
+
 mapping between categories
 
 given two categories C and D,
@@ -14,6 +17,8 @@ thus for morphism f in C,
 f :: a -> b
 morphism F f in D, likewise connects objects F a, F b
 F f :: F a -> F b
+
+for every hom-set C(a, b) the functor F needs a mapping to D(F a, F b)
 
 furthermore, Functors preserve composition of morphisms
 h = g . f
