@@ -66,3 +66,65 @@ then
 too cannot be a NT
 it is, however, a "dinatural transformation"
 
+2-category
+NT α β
+Functor F G H
+function f a->b
+
+F a->Fa
+G a->Ga
+H a->Ha
+
+α F->G
+β G->H
+
+α_a Fa->Ga
+β.α Fa->Ha
+Ff  Fa->Fb
+
+Hf . β.α_a = β.α_b . Ff = β_b . Gf . α_a
+
+functors between categories C and D
+[C,D] or D^C
+form a category whose morphisms are NTs, Cat seen as 2-category (cat of cats)
+0-cell objects
+1-cell functors
+2-cell NTs
+
+in Cat, homsets are categories, which is also an element of Cat
+this is similar to in Set, its own homsets are also elements of Set
+
+this gives us two senses of composition, vertical and horizontal
+vertical concerns functor objects between categories (NTs)
+horizontal are category objects (functors)
+
+the two compositions satisfy the interchange law
+(β' . α') o (β . α) = (β' o β) . (α' . α)
+(proof by a complicated but straightforward diagram)
+that is,
+there are two ways of getting from objects a to b in Cat
+via a functor or via a NT
+
+lastly, however, we can interpret the functor arrow as a NT,
+the id acting on the functor
+F o α
+for functor F, NT α
+since you cant compose a functor with a NT, this just means
+1_F o α
+
+bicategory
+equal up to isomorphism
+
+associator morphism
+left and right unitor morphism
+
+an action at one level of abstraction becomes an object at the next level
+thats the idea behind higher order functions
+
+groupoid: categories where all morphisms are invertible
+higher nCategories have coherence law problems
+consider nGroupoids
+∞Groupoids by comparison easier, this is HoTT
+
+
+
