@@ -3,7 +3,7 @@ categories great and small
 the set of morphisms from object a to object b in a category C
 is called a 'hom-set' C(a,b)
 
-monoids : set with associative binary operation
+monoids : closed set with id elem and associative binary operation
 
 we can define in haskell with the identity (neutral) element
 and the associative binary operation
@@ -28,16 +28,20 @@ instance Monoid Integer where
 
 however now consider the interpretion following from
     mappend :: m -> (m -> m)
+or
+    mappend :: (m -> m) -> m
 in this sense,
 a monoid is instead a (mono-) single object category
 with a set of morphisms, f, g, (g . f), (g . f . id)
+or
+a monomorphism with id
 
 so, the Integer addition monoid would be
 0
 set of morphisms {...+1, +2, +3...}
 
-as opposed to equivalently (but less functionally)
-{...1,2,3...}
+equivalently
+{...0,1,2...}
 (+)
 
 thus, elements of a hom-set can be seen both as

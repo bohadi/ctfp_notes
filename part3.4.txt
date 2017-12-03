@@ -41,6 +41,11 @@ class Functor m => Monad m where
     join :: m (m a) -> m a
     pure :: a -> m a                  (lifting a value)
 
+to summarize,
+>=> kleisli composition is \x.f x bind g  
+>>=    bind is join after fmap                 (μ . fmap f)
+return/pure is lifting a value into the monad  (η)
+
 wadler read eugenio moggi, now we have monads in haskell
 
 why are these so useful?
