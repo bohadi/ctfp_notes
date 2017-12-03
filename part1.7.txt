@@ -132,3 +132,8 @@ where a small category is one in which objects form a set,
 as opposed to something larger than a set...
 we are considering abstractions of structures where even the
 infinite uncountable sets can be considered small enough to be manageable
+
+to summarize
+a functor can be intuitively thought of as
+    a container, a mapping between morphisms, or
+    equivalently a projection to another category
